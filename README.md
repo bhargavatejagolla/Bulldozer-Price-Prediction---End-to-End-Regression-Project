@@ -31,14 +31,15 @@ The dataset consists of three main files from the Kaggle competition:
 
 The competition uses **Root Mean Squared Log Error (RMSLE)** as the evaluation metric:
 
-\[
-\text{RMSLE} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(\log(p_i + 1) - \log(a_i + 1))^2}
-\]
+$$
+\text{RMSLE} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}\Big(\log(p_i + 1) - \log(a_i + 1)\Big)^2}
+$$
 
-Where:
-- \(p_i\) is the predicted price
-- \(a_i\) is the actual price
-- \(n\) is the total number of observations
+Where:  
+- $p_i$ is the predicted price  
+- $a_i$ is the actual price  
+- $n$ is the total number of observations  
+
 
 ## 🛠️ Technical Implementation
 
